@@ -1,0 +1,10 @@
+- [] Code Cleanups
+  - [] Remove remaining `any` type and standardize the typing.
+  - [] Make the code self-explaining.
+  - [] Refactor, recompose, reuse functions.
+- [] WIP Features
+  - [] Ban, warn, kick, and mute reasons.
+  - [] Forward logs to admin.
+  - [] Configurable warn count.
+  - [] Resetting warn count.
+  - [] A sane storage system.
