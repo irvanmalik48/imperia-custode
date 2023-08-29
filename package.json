@@ -7,7 +7,7 @@
     "dev": "concurrently --kill-others \"tsc -w\" \"nodemon --ignore dist/data/ dist/index.js\"",
     "serve": "tsc && node dist/index.js",
     "build": "tsc",
-    "format": "prettier --write . --ignore-path dist/"
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "",
