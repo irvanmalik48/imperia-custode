@@ -1,4 +1,6 @@
-# realm-guard
+# imperia-custode
+
+> Risen from the ashes of [`realm-guard`](https://github.com/GNUWeeb/realm-guard).
 
 A Telegram group management bot made with Node and Telegraf.
 
@@ -22,15 +24,11 @@ Currently at a WIP stage and is not fit for production use.
 - [x] Banning user
   - [x] Banning user temporarily
   - [x] Banning user silently
-  - [ ] Banning user globally
 - [x] Unbanning user
-  - [ ] Unbanning user globally
 - [x] Kicking user
-  - [ ] Kicking user globally
 - [x] Muting user
   - [x] Muting user temporarily
   - [x] Muting user silently
-  - [ ] Muting user globally
 - [x] Unmuting user
 - [x] Warning user
   - [x] Adding user warns
@@ -38,17 +36,9 @@ Currently at a WIP stage and is not fit for production use.
   - [ ] Resetting user warns
   - [x] Showing user warns
 - [x] Purging the group chat
-- [ ] Managing group rules
-  - [ ] Setting group rules
-  - [ ] Showing group rules
 - [x] Reporting user
 - [x] Pinning message
 - [x] Unpinning message
-- [ ] Spam management
-  - [ ] Flood control
-  - [ ] CAPTCHA challenge for new users
-  - [ ] Spam detection
-- [ ] Snipping messages with keys
 
 > Features are subject to change and will probably change depending on the needs
 
@@ -60,6 +50,12 @@ Currently at a WIP stage and is not fit for production use.
 4. Change the remaining environment variables accordingly. (`BOT_NAME` and `STORAGE_DIR` if you use it)
 5. Run `npm run dev` or `pnpm run dev` or `yarn run dev` or whichever node package manager you prefer as long as it runs.
 6. Voila!
+
+## Acknowledgements
+
+[GNU/Weeb](https://github.com/GNUWeeb) members used to partake in developing this bot, namely [Alviro Iskandar Setiawan](https://github.com/alviroiskandar) and [Ammar Faizi](https://github.com/ammarfaizi2). I wish to invite them again soon but for now, I will take over the development and clean up the code until I can take further actions towards inviting people to contribute.
+
+So many thanks towards all the people contributing in `realm-guard` development. But I'll take the lead this time.
 
 ## License
 
